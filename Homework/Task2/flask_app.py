@@ -14,6 +14,7 @@ def ping():
     return jsonify(success=True)
 
 
+@app.route('/ping',methods=['GET','POST'])
 def parse(link):
     options = Options()
     options.add_argument("--headless")

@@ -13,4 +13,4 @@ RUN pip install -r requirements.txt
 # configure the container to run in an executed manner
 ENTRYPOINT [ "python" ]
 
-CMD flask run --host 0.0.0.0
+CMD ["flask_app.py" ]

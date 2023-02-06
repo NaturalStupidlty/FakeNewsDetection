@@ -7,5 +7,3 @@ services:
      - "5001:5001"
     volumes:
      - .:/code
-  redis:
-    image: redis

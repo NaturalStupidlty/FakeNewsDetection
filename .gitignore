@@ -3,4 +3,5 @@
 .vscode
 .venv
 .DS_Store
+.idea/
 workshop/results
