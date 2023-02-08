@@ -13,8 +13,6 @@ app = Flask(__name__)
 def ping():
     return jsonify(success=True)
 
-
-@app.route('/ping',methods=['GET','POST'])
 def parse(link):
     options = Options()
     options.add_argument("--headless")
@@ -43,8 +41,6 @@ def parse(link):
     driver.quit()
     return articles_text
 
-
-@app.route('/', methods=['GET', 'POST'])
 def main():
     if request.method == "POST":
         text = request.form.get("text_input")
