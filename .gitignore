@@ -5,3 +5,6 @@
 .DS_Store
 .idea/
 workshop/results
+data/ru_propaganda_2022_year/news_embeddings.npy
+data/ru_propaganda_2022_year/text_table.csv
+data/ru_propaganda_2022_year/text_table_processed.csv
